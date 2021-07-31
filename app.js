@@ -59,7 +59,7 @@ app.get("/diary",(req,res) => {
 
 //Route for adding Records
 app.get('/add',(req,res) => {
-    res.render('ADD');
+    res.render('Add');
 })
 
 //Route for Saving diary
